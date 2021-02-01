@@ -35,11 +35,22 @@ body {
   height: 18em;
   display: flex;
   flex-direction: row;
-  box-shadow: inset -31px -31px 43px 0 rgba(255,255,255,0.64), inset 26px 26px 48px 0 rgba(220, 20, 60, 0.16), 0 0 40px 0 rgba(5,15,31,0.16), -23px -23px 45px 0 #fff;;
+  box-shadow: inset -31px -31px 43px 0 rgba(255,255,255,0.64),
+              inset 26px 26px 48px 0 rgba(220, 20, 60, 0.16),
+              0 0 40px 0 rgba(5,15,31,0.16),
+              -23px -23px 45px 0 #fff;;
   transition: .5s;
   border-radius: .5em;
   border: 1px solid rgba(220, 20, 60, .5);
   padding: 1em;
+}
+.card:hover {
+  margin-bottom: 3em;
+  transition: .5s;
+  box-shadow: 0 8px 6px -6px rgba(220, 20, 60, .5),
+  inset -2px -2px 48px 0 rgba(220, 20, 60, 0.16),
+  0 0 40px 0 rgba(5,15,31,0.16),
+  -23px -23px 45px 0 #fff;
 }
 .left-bar {
   flex: 3;
